@@ -8,10 +8,12 @@ A list of puzzles currently being undertaken.
 Solving the problems outlined in the Ninety-Nine Prolog Problems:https://sites.google.com/site/prologsite/prolog-problems/
 
 #### Progress
+
 ##### Python
- * Finished: None.
- * In progress: None.
- * Not started: 1-99.
+ * Finished: 1-12
+ * In progress: None
+ * Not started: 13-99
+
 ##### Coffeescript
  * Finished: None.
  * In progress: None.
