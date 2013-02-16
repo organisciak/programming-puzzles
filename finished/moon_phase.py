@@ -24,8 +24,9 @@ def current_moon(indate):
 	last_new = days_since % LUNAR_MONTH
 
 	#Determine phase
+	## Since the phases are constant, you can use hardcoded 
 	phase = math.floor(8*last_new/LUNAR_MONTH) % 7
 	return LUNAR_PHASES[int(phase)]
 
 today = date.today()
-print "Today's moon is " + current_moon(today) 
+print "Today's moon is " + current_moon(today)
