@@ -1,1 +1,1 @@
-sum([n for n in range(1,1000) if n % 3 == 0 or n % 5 == 0])
+# Find the sum of all the multiples of 3 or 5 below 1000.x = 10# Simple solutionprint sum([n for n in range(0, x) if n % 3 == 0 or n % 5 == 0])# Adding the sums of iterate by 3 and iterate by 5 ranges, then subtract# the iterate by 15 range. No comparisons!print sum(range(0, x, 3)) + sum(range(0, x, 5)) + sum(range(0, x, 15))
